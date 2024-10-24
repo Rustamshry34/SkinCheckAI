@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Skin Cancer Detection | Shry</title>
+    <script>
+      document.getElementById('scan-btn').onclick = function() {
+          var fileUploader = document.getElementById('file-uploader');
+          if (fileUploader) {
+              fileUploader.click();
+          }
+      }
+  </script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">SHRY</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn"><i class="line"></i></button>
+        <button class="btn"><i class="line"></i></button>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="container__left">
+        <h1>Empowering Early Detection, One Scan at a Time</h1>
+        <div class="container__btn">
+         <button class="btn" id="scan-btn">SCAN NOW</button>
+        </div>
+      </div>
+      <div class="container__right">
+        <div class="images">
+          <img src="https://images.unsplash.com/photo-1631048008515-722a6836c48c?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="tent-1" class="tent-1" />
+          <img src="https://images.unsplash.com/photo-1576086476234-1103be98f096?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="tent-2" class="tent-2" />
+        </div>
+        <div class="content">
+          <h2>SkinCheck AI</h2>
+          <h3>Your First Line of Defense Against Skin Cancer</h3>
+          <p>
+            SkinCheck AI is an advanced skin cancer detection tool powered by deep learning. 
+            Our model analyzes skin images to detect signs of skin cancer, helping users identify potential issues early 
+            with accurate detection capabilities.
+          </p>
+        </div>
+      </div>
+  </body>
+</html>
