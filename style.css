@@ -334,7 +334,7 @@ nav {
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 500px) {
   html {
     font-size: 14px; /* Smaller base font size for very small screens */
   }
