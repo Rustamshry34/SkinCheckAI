@@ -410,7 +410,7 @@ nav {
   /* Navigation menu adjustments for very small screens */
   .nav__links {
     top: 56px; /* Match smaller header height */
-    padding: 1.5rem 1rem;
+    padding: 2.5rem 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
