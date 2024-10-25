@@ -295,7 +295,7 @@ nav {
   }
 }
 
-@media screen and (max-width:479px) {
+@media (width > 1024px) {
   .container__right {
     grid-template-columns: 1fr 2fr;
     align-items: center;
