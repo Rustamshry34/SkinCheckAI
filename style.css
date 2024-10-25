@@ -412,11 +412,13 @@ nav {
   .nav__links {
     top: 56px; /* Match smaller header height */
     padding: 2.5rem 2rem;
+    background-color: transparent;
   }
 
   .nav__links a {
     font-size: 1rem;
     padding: 1.0rem;
+    background-color: transparent;
   }
 
   /* Adjust animation for smaller screens */
