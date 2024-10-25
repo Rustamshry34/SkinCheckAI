@@ -345,7 +345,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: var(--text-dark);
   }
 
   .nav__logo a {
@@ -414,22 +414,30 @@ nav {
 
   /* Navigation menu adjustments for very small screens */
   .nav__links {
-    top: 56px; /* Match smaller header height */
-    padding: 2.5rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: transparent;
-  }
-
+     position: absolute;
+     top: 60px;
+     left: 0;
+     width: 100%;
+     padding: 2rem;
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 2rem;
+     background-color: var(--text-dark);
+     transition: 0.5s;
+     z-index: 9;
+     transform: translateY(-100%);
+}
   .nav__links a {
-    font-size: 1rem;
-    padding: 1.0rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: transparent;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
   }
+    }
 
   /* Adjust animation for smaller screens */
   @keyframes show {
