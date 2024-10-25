@@ -345,6 +345,7 @@ nav {
 
   .nav__logo a {
     font-size: 1.1rem; /* Smaller logo text */
+    display:none;
   }
 
   .container {
@@ -360,7 +361,6 @@ nav {
     font-size: 2rem; /* Smaller heading */
     line-height: 1.3;
     margin-bottom: 1rem;
-    margin-top: 1rem;
   }
 
   .container__left .btn {
