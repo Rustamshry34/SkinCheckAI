@@ -58,7 +58,7 @@ def main():
 
 #@st.cache_resource(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model('cancer_model.h5')  # Update with your model path
+    model = tf.keras.models.load_model('skin_cancer_model.h5')  # Update with your model path
     return model
 
 model = load_model()
