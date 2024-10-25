@@ -334,7 +334,7 @@ nav {
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 1280px) {
   html {
     font-size: 14px; /* Smaller base font size for very small screens */
   }
@@ -375,12 +375,12 @@ nav {
   }
 
   .tent-1 {
-    max-width: 250px; /* Smaller max-width */
+    max-width: 50px; /* Smaller max-width */
     margin-bottom: 0.75rem;
   }
 
   .tent-2 {
-    max-width: 150px;
+    max-width: 100px;
   }
 
   .content {
@@ -407,8 +407,11 @@ nav {
 
   /* Navigation menu adjustments for very small screens */
   .nav__links {
-    top: 56px; /* Match smaller header height */
-    padding: 1.5rem 1rem;
+    position: static;
+    padding: 0;
+    flex-direction: row;
+    background-color: transparent;
+    transform: none;
   }
 
   .nav__links a {
