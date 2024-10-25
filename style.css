@@ -377,10 +377,12 @@ nav {
   .tent-1 {
     max-width: 50px; /* Smaller max-width */
     margin-bottom: 0.75rem;
+    display:none;
   }
 
   .tent-2 {
     max-width: 100px;
+    display:none;
   }
 
   .content {
@@ -407,11 +409,8 @@ nav {
 
   /* Navigation menu adjustments for very small screens */
   .nav__links {
-    position: static;
-    padding: 0;
-    flex-direction: row;
-    background-color: transparent;
-    transform: none;
+    top: 56px; /* Match smaller header height */
+    padding: 1.5rem 1rem;
   }
 
   .nav__links a {
