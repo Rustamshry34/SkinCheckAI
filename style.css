@@ -341,6 +341,10 @@ nav {
 
   .nav__header {
     padding: 0.75rem; /* Reduced padding */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: transparent;
   }
 
