@@ -412,13 +412,11 @@ nav {
   .nav__links {
     top: 56px; /* Match smaller header height */
     padding: 2.5rem 2rem;
-    display: none;
   }
 
   .nav__links a {
     font-size: 1rem;
     padding: 1.0rem;
-    display:none;
   }
 
   /* Adjust animation for smaller screens */
